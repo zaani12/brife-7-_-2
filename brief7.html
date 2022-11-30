@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./brief.css">
+    <link  href="./walo.js">
+    <title>magasin</title>
+
+<body>
+<table>
+    <div class="container">
+        <div class="header">
+            <h2>Gestion d'articles dans un magasin de vente de produits cosmétiques</h2>
+        </div>
+    <!-- <table> -->
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div class="form-control ">
+                        <label for="Nom">Nom</label>
+                        <input type="text" name="Nom" id="Nom">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation"></i>
+                        <small>Message d'erreur</small>
+                    </div>
+                    <div class="form-control ">
+                        <label for="marque">marque</label>
+                        <input type="text" name="marque" id="marque">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation"></i>
+                        <small>Message d'erreur</small>
+                    </div>
+                    <div class="form-control ">
+                        <label for="ddp">date de production</label>
+                        <input type="date" name="ddp" id="ddp">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation"></i>
+                        <small>Message d'erreur</small>
+                    </div>
+                    <div class="form-control ">
+                        <label for="perPrice">prix</label>
+                        <input type="number" name="perPrice" id="perPrice">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation"></i>
+                        <small>Message d'erreur</small>
+                    </div>
+                    <div class="type-control"  > 
+                        <select class="type-select" id="type" id="input-type" >
+                            <label for="Son type:" >Son type:</label>
+                            <option disabled selected value id="type"  > -- on type: -- </option>
+                            <option >hygiène et toilette</option>
+                            <option >soins esthétiques</option>
+                            <option >produits solaires</option>
+                            <option >beauté des mains et des pieds</option>
+                            <option>produits de maquillage</option>
+                            <option >entretien</option>
+                            <option">capillaires</option>
+                            <option >parfums</option>
+                          </select>
+                          <i class="fas fa-check-circle"></i>
+                          <i class="fas fa-exclamation"></i>
+                          <small>Message d'erreur</small>
+                    </div>   
+                    <div class="error-promp"  > 
+                        <select class="type-select" id="promo" id="input-promo" >
+                            <label for="Son type:" >Est en promotion: </label>
+                            <option disabled selected value id="type"  > -- on chois: -- </option>
+                            <option >oui</option>
+                            <option >non</option>
+                          </select>
+                          <i class="fas fa-check-circle"></i>
+                          <i class="fas fa-exclamation"></i>
+                          <small>Message d'erreur</small>
+                    </div>   
+                      
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit" id="btn1" >
+                        <input type="reset" value="Reset" id="btn2">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="table"  id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>marque</th>
+                                <th>date de production</th>
+                                <th>prix</th>
+                                <th>type</th>
+                                <th>promotion</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+        <div>
+            
+        </div>
+        
+    <script type="text/javascript" src="./brief7.js"></script>
+    <div>
+        
+    </table>
+<body>
+</html>
